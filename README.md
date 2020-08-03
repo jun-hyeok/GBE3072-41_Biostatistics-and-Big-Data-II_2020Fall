@@ -7,7 +7,7 @@
 - Office: N-center, 86335
 - Web: [Cocoan lab](http://cocoanlab.github.io)
 - E-mail: choongwan.woo@gmail.com
-- Class: Mon 1:30-2:45, Wed 12:00-1:15 at 86102
+- Class: Tue 1:30-2:45, Thu 12:00-1:15 at TBA (possibly, the computer room)
 - Office hours: Wed 10:00-12:00, you can book a time in advance through [https://choongwanwoo.youcanbook.me](https://choongwanwoo.youcanbook.me)
 
 <br>
@@ -34,10 +34,6 @@ Data are everywhere. It is a big data era. Data science already became a key ele
 This class uses a flipped classroom format, which is a new way of teaching and learning. Different from the traditional learning environment (passively listening to the lecture in the class and doing homework at home), in the flipped classroom, you will listen to the lecture at home and do homework and practices in the classroom. I personally experienced this format of learning during my PhD (for the Machine Learning class) and deeply enjoyed it. I found the flipped classroom helped students stay engaged and provided a good environment for hands-on experience. For these reasons, I have wanted to do the class with the flipped classroom format.
 
 This semester is the first semester I open this class. Therefore, class materials are not going to be perfect, and I might not be able to provide videos for all weeks. Please consider you as a co-creator of this class. We will make and shape the class together. 
-
-, but I will try to make and share as much as possible. Let's see how much I can do! 
-
-Please think that you are the co-
 
 ## Potential impacts in the course format due to the Covid-19
 
