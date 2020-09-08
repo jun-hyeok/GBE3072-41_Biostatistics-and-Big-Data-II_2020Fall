@@ -71,15 +71,15 @@ Week  | Video lectures | Class | Chapters
 ------| ------ | ----- | --------
 **Week 1** |
 9/1  |  | Overview | | 
-9/3  |  | Softwares and programming languages | | 
+9/3  |  | Changes in the class format | | 
 **Week 2** | | | |
-9/8 |  | Descriptive stats - analysis and report |  |
-9/10 | | Data visualization 1  | |
+9/8 |  | Softwares and programming languages |  |
+9/10 | | Target research articles and datasets  | |
 **Week 3** | | | |
-9/15 | | Describing distribution (Data visualization 2) |  |
-9/17 | | Comparing distribution 1 - Histogram, box plot |  |
+9/15 | | Descriptive stats - analysis and report  |  |
+9/17 | | Data visualization and Describing distribution  |  |
 **Week 4** | | | |
-9/22 | | Comparing distribution 2 - scatter plot, and KL divergence, Q-Q plot |  |
+9/22 | | Comparing distribution - Histogram, box plot, scatter plot, and KL divergence, Q-Q plot |  |
 9/24 | | Sampling - standard error of the mean, confidence interval |  |
 **Week** |  | | |
 9/29 | | 추석 |  |
