@@ -76,23 +76,23 @@ Week  | Video lectures | Class | Chapters
 9/8 |  | Softwares and programming languages |  |
 9/10 | | Target research articles and datasets  | |
 **Week 3** | | | |
-9/15 | | Descriptive stats - analysis and report  |  |
-9/17 | | Data visualization and Describing distribution  |  |
+9/15 | | JAMOVI-Getting started  |  |
+9/17 | | Wrangling data   |  |
 **Week 4** | | | |
-9/22 | | Comparing distribution - Histogram, box plot, scatter plot, and KL divergence, Q-Q plot |  |
-9/24 | | Sampling - standard error of the mean, confidence interval |  |
+9/22 | | Exploration (Descriptive stats; Data visualization; Q-Q) | |
+9/24 | | Exploring the real data | |
 **Week** |  | | |
 9/29 | | 추석 |  |
 10/1 | | 추석 |  |
 **Week 5** | | | |
-10/6 | | Resampling 1 - bootstrap test |  |
-10/8 | | One sample t-test and NHST |  |
+10/6 | | Sampling (standard error of the mean, confidence interval) | |
+10/8 | | One sample t-test  |  |
 **Week 6** | | | |
-10/13 | | Resampling 2 - permutation test |  |
-10/15 | | Paired t-test, two-sample t-test |  |
+10/13 | | Paired t-test, two-sample t-test |  |
+10/15 | | T-test on the real data |  |
 **Week 7** | | | |
-10/20 | | Chi-square test |  |
-10/22 | | Correlation  |  |
+10/20 | | Resampling (bootstrap and permutation) |  |
+10/22 | | Chi-square test |  |
 **Week 8** | | | |
 10/27 | | mid-term |  |
 10/29 | | mid-term  |  |
@@ -103,7 +103,7 @@ Week  | Video lectures | Class | Chapters
 11/10 | | ANOVA - basics |  |
 11/12 | | ANOVA - advanced |  |
 **Week 11** | | | |
-11/17* | | Multiple regression (basics) - basic stats, R-squared |  |
+11/17* | | Correlation, Multiple regression (basics) - basic stats, R-squared |  |
 11/19 | | Multiple regression (advanced 1) - Dummy coding, etc. |  |
 **Week 12** | | | |
 11/24 | | Multiple regression (advanced 2) - hierarchical, additional R-squared |  |
