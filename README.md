@@ -59,43 +59,46 @@ I will use Matlab, R, and two free software packages for statistical analysis, [
 
 Absolute evaluation will be used for this course. 
 
-1. Attendance (40%)
-2. Participation (including pop-questions) (35%)
-3. Midterm exam (10%)
-4. Final exam (15%)
+1. Attendance (30%)
+2. Participation (including pop-questions) (20%)
+3. Final exam (25%)
+4. Homework (25%)
 
 
 ## Schedule (TBA)
 
-Week  | Video lectures | Class | Chapters 
-------| ------ | ----- | --------
+L: livestream
+R: recording
+
+Week  | Video lectures | Class | Computer room | Homework assignment
+------| ------ | ----- | -------- | ---
 **Week 1** |
 9/1  |  | Overview | | 
-9/3  |  | Changes in the class format | | 
+9/3  |  | Changes in the class format | | |
 **Week 2** | | | |
-9/8 |  | Softwares and programming languages |  |
-9/10 | | Target research articles and datasets  | |
+9/8 |  | (**L**ivestream) Softwares and programming languages |  | |
+9/10 | | (**R**ecording) Target research articles and datasets  | | |
 **Week 3** | | | |
-9/15 | | JAMOVI-Getting started  |  |
-9/17 | | Wrangling data   |  |
+9/15 | | (L) JAMOVI-Getting started  |  | |
+9/17 | | (R) Wrangling data   | Open | |
 **Week 4** | | | |
-9/22 | | Exploration (Descriptive stats; Data visualization; Q-Q) | |
-9/24 | | Exploring the real data | |
+9/22 | | (L) Exploration (Descriptive stats; Data visualization; Q-Q) | | |
+9/24 | | (R) Exploring the real data | | |
 **Week** |  | | |
 9/29 | | 추석 |  |
 10/1 | | 추석 |  |
 **Week 5** | | | |
-10/6 | | Sampling (standard error of the mean, confidence interval) | |
-10/8 | | One sample t-test  |  |
+10/6 | | (L) Sampling (standard error of the mean, confidence interval) | | |
+10/8 | | (R) One sample t-test  | Open | |
 **Week 6** | | | |
-10/13 | | Paired t-test, two-sample t-test |  |
-10/15 | | T-test on the real data |  |
+10/13 | | (L) Paired t-test, two-sample t-test |  | HW1 due |
+10/15 | | (R) T-test on the real data |  |  |
 **Week 7** | | | |
-10/20 | | Resampling (bootstrap and permutation) |  |
-10/22 | | Chi-square test |  |
+10/20 | | (L) Resampling (bootstrap and permutation) |  | |
+10/22 | | (R) Chi-square test | Open | |
 **Week 8** | | | |
-10/27 | | mid-term |  |
-10/29 | | mid-term  |  |
+10/27 | | mid-term |  |  HW2 (mid-term) due |
+10/29 | | mid-term  |  |   |
 **Week 9** | | | |
 11/3 | | Multiple comparisons correction, FWER (bon ferroni), FDR|  |
 11/5 | | Power calculation  |  |
