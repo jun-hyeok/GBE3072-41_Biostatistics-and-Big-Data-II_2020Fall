@@ -80,7 +80,7 @@ Week  | Video lectures | Class | Computer room | Homework assignment
 9/10 | | (**R**ecording) Target research articles and datasets  | | |
 **Week 3** | | | |
 9/15 | | (L) JAMOVI-Getting started  |  | |
-9/17 | | (R) Wrangling data   | Open | |
+9/17 | | (R) Wrangling data   | | |
 **Week 4** | | | |
 9/22 | | (L) Exploration (Descriptive stats; Data visualization; Q-Q) | | |
 9/24 | | (R) Exploring the real data | | |
@@ -89,15 +89,15 @@ Week  | Video lectures | Class | Computer room | Homework assignment
 10/1 | | 추석 |  |
 **Week 5** | | | |
 10/6 | | (L) Sampling (standard error of the mean, confidence interval) | | |
-10/8 | | (R) One sample t-test  | Open | |
+10/8 | | (R) One sample t-test  | | |
 **Week 6** | | | |
-10/13 | | (L) Paired t-test, two-sample t-test |  | HW1 due |
-10/15 | | (R) T-test on the real data |  |  |
+10/13 | | (L) Paired t-test, two-sample t-test |  |  |
+10/15 | | (R) T-test on the real data |  | |
 **Week 7** | | | |
-10/20 | | (L) Resampling (bootstrap and permutation) |  | |
-10/22 | | (R) Chi-square test | Open | |
+10/20 | | (L) Resampling (bootstrap and permutation) |  |  |
+10/22 | | (R) Chi-square test | | |
 **Week 8** | | | |
-10/27 | | mid-term |  |  HW2 (mid-term) due |
+10/27 | | mid-term |  |  |
 10/29 | | mid-term  |  |   |
 **Week 9** | | | |
 11/3 | | Multiple comparisons correction, FWER (bon ferroni), FDR|  |
