@@ -70,7 +70,7 @@ Absolute evaluation will be used for this course.
 L: livestream
 R: recording
 
-Week  | Video lectures | Class | Computer room | Homework assignment
+Week  | Video lectures | Class | Playlist link | Homework assignment
 ------| ------ | ----- | -------- | ---
 **Week 1** |
 9/1  |  | Overview | | 
@@ -79,31 +79,31 @@ Week  | Video lectures | Class | Computer room | Homework assignment
 9/8 |  | (**L**ivestream) Softwares and programming languages |  | |
 9/10 | | (**R**ecording) Target research articles and datasets  | | |
 **Week 3** | | | |
-9/15 | | (L) JAMOVI-Getting started  |  | |
-9/17 | | (R) Wrangling data   | | |
+9/15 | | (L) JAMOVI-Getting started  | [Intro_JAMOVI](https://www.youtube.com/playlist?list=PLXCuLG6zw7mK_LZ-MMh6wDRNz0PuAM5nJ) | |
+9/17 | | (R) Wrangling data I  | [Data Wrangling](https://www.youtube.com/playlist?list=PLXCuLG6zw7mLKkpNr85n3CVwsl4HzGltP) | |
 **Week 4** | | | |
-9/22 | | (L) Exploration (Descriptive stats; Data visualization; Q-Q) | | |
-9/24 | | (R) Exploring the real data | | |
+9/22 | | (L) Wrangling data II, Data Exploration I  | [Data Exploration](https://www.youtube.com/playlist?list=PLXCuLG6zw7mLDwCCQRn4x75DxyzfU_mLg) | |
+9/24 | | (R) Data Exploration II | | |
 **Week** |  | | |
 9/29 | | 추석 |  |
 10/1 | | 추석 |  |
 **Week 5** | | | |
-10/6 | | (L) Sampling (standard error of the mean, confidence interval) | | |
-10/8 | | (R) One sample t-test  | | |
+10/6 | | (L) Data Exploratio with the real data | | |
+10/8 | | (R) Sampling (standard error of the mean, confidence interval)  | | |
 **Week 6** | | | |
-10/13 | | (L) Paired t-test, two-sample t-test |  |  |
-10/15 | | (R) T-test on the real data |  | |
+10/13 | | (L) One sample t-test |  |  |
+10/15 | | (R) Paired t-test, two-sample t-test |  | |
 **Week 7** | | | |
-10/20 | | (L) Resampling (bootstrap and permutation) |  |  |
-10/22 | | (R) Chi-square test | | |
+10/20 | | (L) T-test on the real data |  |  |
+10/22 | | (R) Resampling (bootstrap and permutation) | | |
 **Week 8** | | | |
 10/27 | | mid-term |  |  |
 10/29 | | mid-term  |  |   |
 **Week 9** | | | |
-11/3 | | Multiple comparisons correction, FWER (bon ferroni), FDR|  |
-11/5 | | Power calculation  |  |
+11/3 | | Chi-square test|  |
+11/5 | | Multiple comparisons correction, FWER (bon ferroni), FDR|  |
 **Week 10** | | | |
-11/10 | | ANOVA - basics |  |
+11/10 | | Power calculation, ANOVA - basics |  |
 11/12 | | ANOVA - advanced |  |
 **Week 11** | | | |
 11/17* | | Correlation, Multiple regression (basics) - basic stats, R-squared |  |
