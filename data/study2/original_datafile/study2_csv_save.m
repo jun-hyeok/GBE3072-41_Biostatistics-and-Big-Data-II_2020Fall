@@ -2,6 +2,7 @@ basedir = '/Users/clinpsywoo/Dropbox/2011-yr/Teaching/R_stats/Stats2_2020Fall/da
 original_dat_dir = fullfile(basedir, 'original_datafile');
 
 load(fullfile(original_dat_dir, 'CRB_demographics.mat'));
+load(fullfile(original_dat_dir, 'CRB_dataset_SCR_lpf5Hz_DS25Hz_011516.mat'));
 
 participant_id = crb_demog.id';
 participant_id = cat(1,participant_id{:});
@@ -17,9 +18,9 @@ for i = 1:numel(sex_num)
 end
 
 age = crb_demog.data(:,2);
-
-T = table(participant_id, sex, age);
-writetable(T, fullfile(basedir, 'demographics.csv'),'Delimiter','\t','QuoteStrings',true)
+% 
+% T = table(participant_id, sex, age);
+% writetable(T, fullfile(basedir, 'demographics.csv'),'Delimiter','\t','QuoteStrings',true)
 
 %% temp/ratings/reg data
 subjects = [];
@@ -45,3 +46,23 @@ writetable(T, fullfile(basedir, 'temp_ratings_regulation_data.csv'),'Delimiter',
 % regulation = wani_33.imaginecode(:);
 % subjects = repmat(1:33, 97,1);
 % subjects = subjects(:);
+
+uu = unique(temperature);
+avg_temp = NaN(max(subjects), numel(uu));
+
+for i = 1:max(subjects)
+    rat_temp = ratings_intensity(subjects==i);
+    for j = 1:numel(uu)
+        avg_temp(i,j) = mean(rat_temp(temperature(subjects==i)==uu(j)));
+    end
+end
+
+heat_lv1 = avg_temp(:,1);
+heat_lv2 = avg_temp(:,2);
+heat_lv3 = avg_temp(:,3);
+heat_lv4 = avg_temp(:,4);
+heat_lv5 = avg_temp(:,5);
+heat_lv6 = avg_temp(:,6);
+
+T = table(participant_id, sex, age, heat_lv1, heat_lv2, heat_lv3, heat_lv4, heat_lv5, heat_lv6);
+writetable(T, fullfile(basedir, 'demographics.csv'),'Delimiter','\t','QuoteStrings',true)
