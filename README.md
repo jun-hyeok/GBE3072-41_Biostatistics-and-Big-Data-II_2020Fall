@@ -91,7 +91,7 @@ Week  | Video lectures | Class | Playlist link | Homework assignment
 10/6 | | (L) Data Exploration with the real data | | |
 10/8 | | (R) Sampling (standard error of the mean, confidence interval)  | | |
 **Week 6** | | | |
-10/13 | | (L) One sample t-test | [jamovi t-test](https://www.youtube.com/playlist?list=PLXCuLG6zw7mL5v44qpj4VuvcV22YyNc8x) |  |
+10/13 | | (L) One sample t-test | [jamovi t-test](https://www.youtube.com/playlist?list=PLXCuLG6zw7mL5v44qpj4VuvcV22YyNc8x) |  [HW1](https://github.com/wanirepo/Stats2_2020Fall/blob/master/hw_assignment/hw01.md) due: 10/23|
 10/15 | | (R) Paired t-test, two-sample t-test |  | |
 **Week 7** | | | |
 10/20 | | (L) T-test on the real data |  |  |
