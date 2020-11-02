@@ -66,3 +66,19 @@ heat_lv6 = avg_temp(:,6);
 
 T = table(participant_id, sex, age, heat_lv1, heat_lv2, heat_lv3, heat_lv4, heat_lv5, heat_lv6);
 writetable(T, fullfile(basedir, 'demographics.csv'),'Delimiter','\t','QuoteStrings',true)
+
+scr_datdir = '/Users/clinpsywoo/Dropbox/github/cognitive_regulation_physiology/data';
+load(fullfile(scr_datdir, 'SCR_prediction_dat_112816.mat'));
+
+for i = 1:41
+    scr_lv1(i,1) = test_scr_int{1,2}(i);
+    scr_lv2(i,1) = test_scr_int{2,2}(i);
+    scr_lv3(i,1) = test_scr_int{3,2}(i);
+    scr_lv4(i,1) = test_scr_int{4,2}(i);
+    scr_lv5(i,1) = test_scr_int{5,2}(i);
+    scr_lv6(i,1) = test_scr_int{6,2}(i);
+end
+
+T = table(participant_id, sex, age, heat_lv1, heat_lv2, heat_lv3, heat_lv4, heat_lv5, heat_lv6, ...
+    scr_lv1, scr_lv2, scr_lv3, scr_lv4, scr_lv5, scr_lv6);
+writetable(T, fullfile(basedir, 'demographics_scr.csv'),'Delimiter','\t','QuoteStrings',true)

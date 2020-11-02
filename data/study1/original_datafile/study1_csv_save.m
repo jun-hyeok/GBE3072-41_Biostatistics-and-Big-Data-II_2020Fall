@@ -48,10 +48,31 @@ curtemp(wani_33.curtemp == u(11) | wani_33.curtemp == u(12)) = 48.3;
 curtemp(wani_33.curtemp == u(13)) = 49.3;
 
 
-T = table(subjects, curtemp(:), ratings, regulation);
-writetable(T, fullfile(basedir, 'temp_ratings_regulation_data.csv'),'Delimiter','\t','QuoteStrings',true)
+% T = table(subjects, curtemp(:), ratings, regulation);
+% writetable(T, fullfile(basedir, 'temp_ratings_regulation_data.csv'),'Delimiter','\t','QuoteStrings',true)
+
+%% 
+
+basedir = '/Users/clinpsywoo/Dropbox/2011-yr/Teaching/R_stats/Stats2_2020Fall/data/study1';
+original_dat_dir = fullfile(basedir, 'original_datafile');
+load(fullfile(original_dat_dir, 'roi_new_variables.mat'));
+
+for i = 1:numel(roi_new.pexp)
+    nps_lv1(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}<13));
+    nps_lv2(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}>=13 & roi_new.curtemp{i}<14));
+    nps_lv3(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}>=14 & roi_new.curtemp{i}<15));
+    nps_lv4(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}>=15 & roi_new.curtemp{i}<16));
+    nps_lv5(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}>=16 & roi_new.curtemp{i}<17));
+    nps_lv6(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}>=17));
+end
+
+nps_lv6(isnan(nps_lv6)) = nanmean(nps_lv6);
 
 %%
+dat_demo = importdata(fullfile(original_dat_dir, 'demographics.tsv'));
+participant_id = dat_demo.textdata(2:end,1);
+sex = dat_demo.textdata(2:end,2);
+age = dat_demo.data;
 
 uu = unique(curtemp);
 avg_temp = NaN(max(subjects), 6);
@@ -62,3 +83,13 @@ for i = 1:max(subjects)
         avg_temp(i,j) = mean(rat_temp(curtemp(subjects==i)==uu(j)));
     end
 end
+
+heat_lv1 = avg_temp(:,1);
+heat_lv2 = avg_temp(:,2);
+heat_lv3 = avg_temp(:,3);
+heat_lv4 = avg_temp(:,4);
+heat_lv5 = avg_temp(:,5);
+heat_lv6 = avg_temp(:,6);
+
+T = table(participant_id, sex, age, heat_lv1, heat_lv2, heat_lv3, heat_lv4, heat_lv5, heat_lv6, nps_lv1, nps_lv2, nps_lv3, nps_lv4, nps_lv5, nps_lv6);
+writetable(T, fullfile(basedir, 'demographics_nps.csv'),'Delimiter','\t','QuoteStrings',true)
