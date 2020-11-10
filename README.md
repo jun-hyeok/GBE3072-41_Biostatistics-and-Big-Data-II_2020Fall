@@ -102,7 +102,6 @@ Week  | Video lectures | Class | Playlist link | Homework assignment
 **Week 9** | | | |
 11/3 | | Chi-square test| [jamovi tests for counts](https://www.youtube.com/playlist?list=PLXCuLG6zw7mKzyUxZDs06SOtWP8fjJF98) |
 11/5 | | ANOVA-review |  [jamovi ANOVA](https://www.youtube.com/playlist?list=PLXCuLG6zw7mLmslikvkrA4H0i5vNv4tBp) | [HW2](https://github.com/wanirepo/Stats2_2020Fall/blob/master/hw_assignment/hw02.md) due: 11/13|
-
 **Week 10** | | | |
 11/10 | | ANOVA - basics |  |
 11/12 | | ANOVA - advanced |  |
