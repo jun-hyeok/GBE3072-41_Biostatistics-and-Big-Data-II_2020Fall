@@ -100,14 +100,14 @@ Week  | Video lectures | Class | Playlist link | Homework assignment
 10/27 | | mid-term |  |  |
 10/29 | | mid-term  |  |   |
 **Week 9** | | | |
-11/3 | | Chi-square test| [jamovi tests for counts](https://www.youtube.com/playlist?list=PLXCuLG6zw7mKzyUxZDs06SOtWP8fjJF98) |
-11/5 | | ANOVA-review |  [jamovi ANOVA](https://www.youtube.com/playlist?list=PLXCuLG6zw7mLmslikvkrA4H0i5vNv4tBp) | [HW2](https://github.com/wanirepo/Stats2_2020Fall/blob/master/hw_assignment/hw02.md) due: 11/13|
+11/3 | | (L) Chi-square test| [jamovi tests for counts](https://www.youtube.com/playlist?list=PLXCuLG6zw7mKzyUxZDs06SOtWP8fjJF98) |
+11/5 | | (R) ANOVA-review |  [jamovi ANOVA](https://www.youtube.com/playlist?list=PLXCuLG6zw7mLmslikvkrA4H0i5vNv4tBp) | [HW2](https://github.com/wanirepo/Stats2_2020Fall/blob/master/hw_assignment/hw02.md) due: 11/13|
 **Week 10** | | | |
-11/10 | | ANOVA - basics |  |
-11/12 | | ANOVA - advanced |  |
+11/10 | | (L) ANOVA - basics |  |
+11/12 | | (R) ANOVA - advanced |  |
 **Week 11** | | | |
-11/17* | | Correlation, Multiple regression (basics) - basic stats, R-squared |  |
-11/19 | | Multiple regression (advanced 1) - Dummy coding, etc. |  |
+11/17* | | (R) Correlation, Multiple regression (basics) - basic stats, R-squared |  |
+11/19 | | (R) Multiple regression (advanced 1) - Dummy coding, etc. |  |
 **Week 12** | | | |
 11/24 | | Multiple regression (advanced 2) - hierarchical, additional R-squared |  |
 11/26 | | Cross-validation and independent model testing |  |
