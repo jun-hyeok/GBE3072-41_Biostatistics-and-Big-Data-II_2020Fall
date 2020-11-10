@@ -100,10 +100,11 @@ Week  | Video lectures | Class | Playlist link | Homework assignment
 10/27 | | mid-term |  |  |
 10/29 | | mid-term  |  |   |
 **Week 9** | | | |
-11/3 | | Chi-square test|  |
-11/5 | | Multiple comparisons correction, FWER (bon ferroni), FDR|  |
+11/3 | | Chi-square test| [jamovi tests for counts](https://www.youtube.com/playlist?list=PLXCuLG6zw7mKzyUxZDs06SOtWP8fjJF98) |
+11/5 | | ANOVA-review |  [jamovi ANOVA](https://www.youtube.com/playlist?list=PLXCuLG6zw7mLmslikvkrA4H0i5vNv4tBp) | [HW2](https://github.com/wanirepo/Stats2_2020Fall/blob/master/hw_assignment/hw02.md) due: 11/13|
+
 **Week 10** | | | |
-11/10 | | Power calculation, ANOVA - basics |  |
+11/10 | | ANOVA - basics |  |
 11/12 | | ANOVA - advanced |  |
 **Week 11** | | | |
 11/17* | | Correlation, Multiple regression (basics) - basic stats, R-squared |  |
