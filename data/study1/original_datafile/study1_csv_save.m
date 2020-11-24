@@ -91,5 +91,48 @@ heat_lv4 = avg_temp(:,4);
 heat_lv5 = avg_temp(:,5);
 heat_lv6 = avg_temp(:,6);
 
-T = table(participant_id, sex, age, heat_lv1, heat_lv2, heat_lv3, heat_lv4, heat_lv5, heat_lv6, nps_lv1, nps_lv2, nps_lv3, nps_lv4, nps_lv5, nps_lv6);
-writetable(T, fullfile(basedir, 'demographics_nps.csv'),'Delimiter','\t','QuoteStrings',true)
+% T = table(participant_id, sex, age, heat_lv1, heat_lv2, heat_lv3, heat_lv4, heat_lv5, heat_lv6, nps_lv1, nps_lv2, nps_lv3, nps_lv4, nps_lv5, nps_lv6);
+% writetable(T, fullfile(basedir, 'demographics_nps.csv'),'Delimiter','\t','QuoteStrings',true)
+
+%%
+
+for i = 1:numel(roi_new.pexp)
+    
+    nps_low_down(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}<14 & roi_new.imagine{i}==-1));
+    nps_low_passive(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}<14 & roi_new.imagine{i}==0));
+    nps_low_up(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}<14 & roi_new.imagine{i}==1));
+    
+    nps_med_down(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}>=14 & roi_new.curtemp{i}<16 & roi_new.imagine{i}==-1));
+    nps_med_passive(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}>=14 & roi_new.curtemp{i}<16 & roi_new.imagine{i}==0));
+    nps_med_up(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}>=14 & roi_new.curtemp{i}<16 & roi_new.imagine{i}==1));
+    
+    nps_high_down(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}>=16 & roi_new.imagine{i}==-1));
+    nps_high_passive(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}>=16 & roi_new.imagine{i}==0));
+    nps_high_up(i,1) = nanmean(roi_new.pexp{i}(roi_new.curtemp{i}>=16 & roi_new.imagine{i}==1));
+end
+
+nps_high_down(isnan(nps_high_down)) = nanmean(nps_high_down);
+nps_high_up(isnan(nps_high_up)) = nanmean(nps_high_up);
+
+
+
+for i = 1:numel(roi_new.pexp)
+    
+    rating_low_down(i,1) = nanmean(roi_new.currep{i}(roi_new.curtemp{i}<14 & roi_new.imagine{i}==-1));
+    rating_low_passive(i,1) = nanmean(roi_new.currep{i}(roi_new.curtemp{i}<14 & roi_new.imagine{i}==0));
+    rating_low_up(i,1) = nanmean(roi_new.currep{i}(roi_new.curtemp{i}<14 & roi_new.imagine{i}==1));
+    
+    rating_med_down(i,1) = nanmean(roi_new.currep{i}(roi_new.curtemp{i}>=14 & roi_new.curtemp{i}<16 & roi_new.imagine{i}==-1));
+    rating_med_passive(i,1) = nanmean(roi_new.currep{i}(roi_new.curtemp{i}>=14 & roi_new.curtemp{i}<16 & roi_new.imagine{i}==0));
+    rating_med_up(i,1) = nanmean(roi_new.currep{i}(roi_new.curtemp{i}>=14 & roi_new.curtemp{i}<16 & roi_new.imagine{i}==1));
+    
+    rating_high_down(i,1) = nanmean(roi_new.currep{i}(roi_new.curtemp{i}>=16 & roi_new.imagine{i}==-1));
+    rating_high_passive(i,1) = nanmean(roi_new.currep{i}(roi_new.curtemp{i}>=16 & roi_new.imagine{i}==0));
+    rating_high_up(i,1) = nanmean(roi_new.currep{i}(roi_new.curtemp{i}>=16 & roi_new.imagine{i}==1));
+end
+
+rating_high_down(isnan(rating_high_down)) = nanmean(rating_high_down);
+rating_high_up(isnan(rating_high_up)) = nanmean(rating_high_up);
+
+T = table(participant_id, sex, age, rating_low_down, rating_low_passive, rating_low_up, rating_med_down, rating_med_passive, rating_med_up, rating_high_down, rating_high_passive, rating_high_up, nps_low_down, nps_low_passive, nps_low_up, nps_med_down, nps_med_passive, nps_med_up, nps_high_down, nps_high_passive, nps_high_up);
+writetable(T, fullfile(basedir, 'demographics_anova.csv'),'Delimiter','\t','QuoteStrings',true)
